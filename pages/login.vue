@@ -52,8 +52,7 @@ export default {
     methods: {
         ...mapMutations(['toggleAuthentication']),
         login () {
-            this.toggleAuthentication()
-            this.$router.push({name: 'index'});
+            this.$auth.loginWith('google')
         }
     }
 }

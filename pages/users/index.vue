@@ -1,5 +1,5 @@
 <template>
-  <h1>inspire</h1>
+  <h1>All registered Users</h1>
 </template>
 
 <script>
